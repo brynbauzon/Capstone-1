@@ -14,94 +14,328 @@
 	<!-- Boostrap Icons -->
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+
+
+<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito:wght@200&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-	<section id="nav_bar">
-		<nav class="navbar navbar-expand-lg navbar-light">
-			  <div class="container-fluid">
-			    <a class="navbar-brand" href="#"><p id="logo">Icon</p></a>
-			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			      <span class="navbar-toggler-icon"></span>
-			    </button>
-			    <div class="collapse navbar-collapse" id="navbarNav">
-			      <ul class="navbar-nav">
-			        <li class="nav-item">
-			          <a class="nav-link active" aria-current="page" href="#">Home</a>
-			        </li>
-			        <li class="nav-item">
-			          <a class="nav-link" href="#">About</a>
-			        </li>
-			        <li class="nav-item">
-			          <a class="nav-link" href="#">Projects</a>
-			        </li>
-			        <li class="nav-item">
-			          <a class="nav-link" href="#">Contact</a>
-			        </li>
-			        <section id="soc_med">
-			     <!-- 
-			        	<i class="bi bi-facebook"></i>
-			        
-			        	<i class="bi bi-linkedin"></i> -->
-			       	
-			        </section>      
-			      </ul>
-			    </div>
-			  </div>
-			</nav>
-		</section>
-				
-		<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-		    <div class="carousel-indicators">
-		      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-		      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-		      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-		    </div>
-		    <div class="carousel-inner">
-		      <div class="carousel-item active">
-		        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+	<!-- Start of Nav Bar -->
+		<section class="nav_bar">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+			    <a class="navbar-brand col-md-6" href="#"><i class="bi bi-bootstrap-reboot"></i></a>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+				    <div class="collapse navbar-collapse col-md-6" id="navbarNav">
+				      <ul class="navbar-nav">
+				        <li class="nav-item">
+				          <a class="nav-link active" aria-current="page" href="#home"><i class="bi bi-house-fill"></i> Home</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="#about"><i class="bi bi-question-octagon-fill"></i> About</a>
+				        </li>
+				         <li class="nav-item">
+				          <a class="nav-link" href="#projects"><i class="bi bi-person-workspace"></i></i> Projects</a>
+				        </li>
+				     <!--    <li class="nav-item">
+				          <a class="nav-link"><i class="bi bi-wrench"></i> Service</a>
+				        </li> -->
+				        <li class="nav-item">
+				          <a class="nav-link" href="#contact"><i class="bi bi-person-lines-fill"></i> Contact</a>
+				        </li>
+				      </ul>
+				    </nav>
+			</section>
+	<!--End of Nav Bar -->  
+	<!-- Ok no need to edit for a while -->
 
-		       
-		          <div class="carousel-caption text-start">
-		            <h1>Hi! I'm Ryan</h1>
-		            <h2>Web Developer</h2>
-		            <p>Some representative placeholder content for the first slide of the carousel.</p>
-		            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-		          </div>
-		       
-		      </div>
-		      <div class="carousel-item">
-		        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
 
-		       
-		          <div class="carousel-caption">
-		            <h1>I build </h1>
-		            <p>Some representative placeholder content for the second slide of the carousel.</p>
-		            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-		          </div>
-		        </div>
+	<!-- Start of Carousel -->
+
+			 <section class="carousel bg-dark ">
+			 	<div class="col-md-12 bg">
+
+		 		<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+		 		<div class="carousel-indicators">
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					  </div>
+					  <div class="carousel-inner">
+					  	  <div class="carousel-item data-bs-interval=10000">
+					      <img src="images/hardware.jpg" class="img-banner img-fluid" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Welcome to my Personal Page</h5>
+					      </div>
+					    </div>
+					    <div class="carousel-item active data-bs-interval=10000">
+					      <img src="images/webdev.jpg" class="img-banner img-fluid" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Web Development</h5>
+					        <p>Web development services are used to design, build, support, and evolve all types of web-based software.</p>
+					      </div>
+					    </div>
+					    <div class="carousel-item data-bs-interval=10000">
+					      <img src="images/hardware.jpg" class="img-banner img-fluid" alt="...">
+					      <div class="carousel-caption d-none d-md-block">
+					        <h5>Technical Services</h5>
+					        <p>fers to the application of business and technical expertise to enable organizations in the creation, management and optimization of or access to information and business processes.</p>
+					      </div>
+					    </div>
+					   </div>
+					  </div>
+					  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>	
+				</section>
+
+		<!-- End of Carousel -->
 		
-		      <div class="carousel-item">
-		        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+				<section id="home">
+					<div class="container c_home">
+						<hr>
+						<div class="row">
+							<div class="col-md-6"><img src="images/me.jpg" class="img-fluid" alt="..."></div>
+								<div class="col-md-6">
+									 <h1 class="header">HELLO. I'M "RYAN"</h1>			
+									 <p class="content_home">IT professional with _ years of experience as a processor specialist, computer programmer/web developer, software support specialist, systems/network technician and IT instructor/trainer. </p>
+									
+									 
+									 <!-- to table -->
+									 <div class="alert alert-info" role="alert">
+									 <i class="bi bi-laptop"></i>
+									</div>
 
-		       
-		          <div class="carousel-caption text-end">
-		            <h1>One more for good measure.</h1>
-		            <p>Some representative placeholder content for the third slide of this carousel.</p>
-		            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-		          </div>
-		        </div>
-		      </div>
-		  
-		    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-		      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		      <span class="visually-hidden">Previous</span>
-		    </button>
-		    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-		      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		      <span class="visually-hidden">Next</span>
-		    </button>
-		  </div>
+									 
+									 		<i class="bi bi-tools"></i>
+									 		<i class="bi bi-router"></i>
+									 		<i class="bi bi-bar-chart-line"></i>
+
+								
+
+								</div>
+							</div>
+							<hr>
+						</div>
+				</section>
+			
+
+ 
+				<section id="about">
+					<div class="container c_about">
+						<div class="row">
+							<hr>
+							<div class="col-md-12">
+											<h1 id="header_about">Here you can know my</h1>
+											<h2>SKILLS AND EXPERIENCE</h2>	
+							</div>
+										
+											<div class="col-md-6">Education		
+													<table class="table table-striped">
+															<thead>
+														<tr>
+													      <th scope="col">School</th>
+													      <th scope="col">Program</th>
+													      
+													      <th scope="col">Degree</th>
+													    </tr>
+														  </thead>
+														    <tr>
+														      <td>Philippine Women's University</td>
+														      <td>Master of Science in Information Technology</td>
+														      <td>Earned Units</td>
+														    </tr>
+														    <tr>
+														     
+														      <td>Central College of the Philippines</td>
+														      <td>Certificate in Professional Education</td>
+														      <td>Completed Units</td>
+														    </tr>
+														    <tr>
+														      <td>Central College of the Philippines</td>
+														      <td>Bachelor of Science in Information Technology</td>
+														      <td>Major in Information Management</td>
+														    </tr>
+														</table>
+											</div>
+									
+												<div class="col-md-6">Employment
+													<div class="accordion accordion-flush" id="accordionFlushExample">
+													  <div class="accordion-item">
+													    <h2 class="accordion-header" id="flush-headingOne">
+													      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+													        2019 - Present | Department of Social Welfare and Development | I.T Officer I
+													      </button>
+													    </h2>
+													    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+													      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+													    </div>
+													  </div>
+													  <div class="accordion-item">
+													    <h2 class="accordion-header" id="flush-headingTwo">
+													      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+													        2017 - 2019 | Center for Health Development MIMAROPA | Data Controller III
+													      </button>
+													    </h2>
+													    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+													      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+													    </div>
+													  </div>
+													  <div class="accordion-item">
+													    <h2 class="accordion-header" id="flush-headingThree">
+													      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+													        2016-2017 | University of the Philippines - National Telehealth Center | Technical Service Coordinator
+													      </button>
+													    </h2>
+													    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+													      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+													    </div>
+													  </div>
+													    <div class="accordion-item">
+													    <h2 class="accordion-header" id="flush-headingFour">
+													      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+													        2015-2016 | AMA Computer College - College Instructor
+													      </button>
+													    </h2>
+													    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+													      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+													    </div>
+													  </div>
+													    <div class="accordion-item">
+													    <h2 class="accordion-header" id="flush-headingFive">
+													      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+													        2009-2014 | Department of Health Region MIMAROPA - Computer Programmer II
+													      </button>
+													    </h2>
+													    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+													      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+													    </div>
+													  </div>
+													    <div class="accordion-item">
+													    <h2 class="accordion-header" id="flush-headingSix">
+													      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+													        20019 | RTG Studio Inc. - Technical Support Representative
+													      </button>
+													    </h2>
+													    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+													      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+													    </div>
+													  </div>
+													</div>
+												</div>
+						</div>
+
+			 						<div class="row">
+			 								<p>Consultancy Projects:</p>
+			 								<div class="col-md-12">Oscar M. Lopez Center - Data Quality Checker | Climate Change Adaptation Survey and Research</div>
+			 								<div class="col-md-12">Ateneo De Manila University -  Data table Generator | Citizen Satisfaction Index Survey</div>
+			 						</div>
+			 						<hr>
+					</div>
+				</section>
+						
+
+							<section id="projects">
+								<div class="container">
+									<p class="alert align-items-center">
+										My Projects
+											</p>
+									<div class="row align-items-center">
+										<div class="col-md-6 col-xl-4">
+											
+											
+													<img id="img1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png">
+
+											<span>Lorem ipsum</span>
+											dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+											cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+											proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										
+										</div>
+										<div class="col-md-6 col-xl-4">
+											
+												<img id="img1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png">
+											<span>Lorem ipsum</span>
+											 dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+											cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+											proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+											</p>
+										</div>
+										<div class="col-md-6 col-xl-4">
+										<img id="img1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png">
+											<span>Lorem ipsum</span>
+											 dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+											consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+											cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+											proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+											Lorem ipsum
+											 
+											</p>
+										</div>
+									</div>		
+								</div>
+					</section>
+
+
+							<section  id="contact">
+								<div class="container border">
+									<div class="row">
+										<div class="col-md-6">
+											<form id="contact">
+												 <div class="mb-3"> 
+											    <input type="text" class="form-control" id="InputName" placeholder="Your Name">
+											  </div>
+											  <div class="mb-3"> 
+											    <input type="email" class="form-control" id="InputEmail" placeholder="Your Email">
+											  </div>
+											  <div class="mb-3">
+											    <input type="text" class="form-control" id="InputContact" placeholder="Your Contact No.">
+											  </div>
+											  <div class="mb-3">	
+											  	  <textarea class="form-control" placeholder="Leave your message here" id="floatingTextarea2" style="height: 100px"></textarea>
+													
+												</div>
+											 
+													
+														
+
+										  <button type="submit" class="btn btn-secondary">Submit</button>
+
+													
+									
+										
+							
+										</form>
+										</div>
+										<div class="col-md-6">
+
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.4475382223404!2d121.0933946151423!3d14.687265092856041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397bba707e62289%3A0x144f2b01515a976d!2sDamayan%20St.%20Batasan%20Hills%20Q.C!5e0!3m2!1sen!2sph!4v1637827253388!5m2!1sen!2sph" style="max-width:100%;height:auto;border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+								
+									</div>
+								</div>
+								</div>					
+						</section>
+
 
 
 
