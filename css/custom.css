@@ -13,8 +13,7 @@
 
 /**{
 
-  font-family: 'Libre Baskerville', serif;
-font-family: 'Nunito', sans-serif
+  
 
 }
 */
@@ -102,75 +101,33 @@ height: 100%;
 
 padding-top: 6rem;
 text-align: center justify-all;
-padding-bottom: 6rem;
+padding-bottom: 12rem;
 
 }
 
+
+.card{
+padding-bottom: 0px;
+}
+
+.header_name{
+
+ font-family: Georgia, serif;
+ font-size: 40px;
+ font-weight: bold;
+ font-style: italic;
+
+}
 
 .header{
  
 
   font-family: Garamond, serif;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
 
 }
-
-
-.content_home{
-
-text-align: center justify-all;
-padding-top: 5 5 5 5px;
-
-}
-
-.c_about{
-
-padding-top: 6rem;
-text-align: center justify-all;
-padding-bottom: 6rem;
-
-
-}
-
-/*/*//*/*/
-
-section projects{
-
-
-padding-top: 25px;
-}
-
-
-#img1{
-
-
-      height: 10vh;
-    width: 10vh;
-    border-radius: 80px;
-}
-
-
-
-
-.footnote{
-
-text-align: center;
-color: white;
-font-size: 20px;
-font-weight: strong;
-padding: 25px;
-
-
-}
-
-
-
-
-
-
-
 
 .img-fluid{
 
@@ -181,26 +138,168 @@ padding: 25px;
 
 }
 
+h2{
 
+ font-family: Garamond, serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 
-
-
-
-
-
-
-#info{
-  text-align: right;
-  font-weight: 30;
 }
 
+label{
 
-#contact{
-
-
-  padding-top: 5px;
+ font-family: Garamond, serif;
+  font-size: 20px;
+  text-align: left;
   padding-bottom: 5px;
+  font-weight: bold;
+
+
 }
+
+#send{
+
+  margin-top: 10px;
+}
+
+.content_home{
+
+text-align: center justify-all;
+padding-top: 5 5 5 5px;
+font-size: 20px;
+
+}
+
+.c_about{
+
+padding-top: 6rem;
+text-align: center justify-all;
+padding-bottom: 20rem;
+
+
+}
+
+
+#txt_con{
+font-family: Garamond, serif;
+ font-size: 15px;
+ font-weight: bold;
+ font-style: italic;
+
+}
+
+#data_table{
+
+font-family: Garamond, serif;
+ font-size: 15px;
+
+
+}
+
+.content_accord{
+
+font-family: Garamond, serif;
+ font-size: 15px;
+ text-align: justify;
+font-size: medium;
+
+}
+
+.accordion-button{
+
+font-family: Garamond, serif;
+ font-size: 15px;
+
+
+}
+
+
+.c_projects{
+
+padding-top: 6rem;
+text-align: center justify-all;
+padding-bottom: 4rem;
+
+}
+
+
+#img1{
+
+
+    height: 10vh;
+    width: 10vh;
+    border-radius: 80px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+ 
+
+}
+
+
+.content_home{
+
+text-align: center justify-all;
+padding-top: 5 5 5 5px;
+font-size: 15px;
+
+}
+
+.c_contact{
+
+
+padding-top: 14rem;
+text-align: center justify-all;
+
+
+
+}
+
+.footnote{
+
+text-align: center;
+color: white;
+font-size: 20px;
+font-weight: strong;
+padding-bottom: 45px;
+
+}
+
+li{
+
+text-align: center justify-all;
+padding-top: 5 5 5 5px;
+font-size: 15px;
+
+}
+
+
+
+/*/*//*/*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
