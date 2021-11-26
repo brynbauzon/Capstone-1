@@ -219,7 +219,7 @@ font-family: Garamond, serif;
 
 padding-top: 6rem;
 text-align: center justify-all;
-padding-bottom: 4rem;
+padding-bottom: 1rem;
 
 }
 
@@ -250,7 +250,7 @@ font-size: 15px;
 .c_contact{
 
 
-padding-top: 14rem;
+padding-top: 10rem;
 text-align: center justify-all;
 
 
@@ -275,6 +275,10 @@ font-size: 15px;
 
 }
 
+.bi-facebook{
+
+  margin-right: 5px;
+}
 
 
 /*/*//*/*/
